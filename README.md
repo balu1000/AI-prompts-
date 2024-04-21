@@ -16,6 +16,6 @@
 | app-job.yaml              | app-job-rsync batch/v1 gcePersistentDisk image google/cloud-sdk:275.0.0-alpine command -/bin/sh volumeMounts                 | Manifest for running a one-off job.         | [Example](./yaml/app-job.yaml)                             |
 | app-multicontainer.yaml   | app-multi-containers | Manifest for a multi-container application. | [Example](./yaml/app-multicontainer.yaml)                  |
 | app-resources.yaml        | kind: Pod;app-resource;gcr.io/kuar-demo/kuard-amd64:1;livenessProbe;readinessProbe;ports;resources     | Manifest demonstrating resource limits.     | [Example](./yaml/app-resources.yaml)                       |
-| app-secret-env.yaml       | Secret as env var   | Manifest using secrets as environment vars. | [Example](./yaml/app-secret-env.yaml)                      |
+| app-secret-env.yaml       | kind: Pod;app-secret-env   | Manifest using secrets as environment vars. | [Example](./yaml/app-secret-env.yaml)                      |
 
 Будь ласка, перейдіть за посиланням вище, щоб переглянути кожен з маніфестів.
