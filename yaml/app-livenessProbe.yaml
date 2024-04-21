@@ -5,11 +5,15 @@ metadata:
   namespace: demo
 spec:
   containers:
-  - name: app-livenessProbe
-    image: gcr.io/k8s-k3s/demo:v1.0.0
+   - image: gcr.io/k8s-k3s/demo:v1.0.0
+     name: app
     livenessProbe:
       httpGet:
         path: /
         port: 80
       initialDelaySeconds: 30
       periodSeconds: 10
+
+    ports:
+        - containerPort: 8080
+          name: http
