@@ -14,7 +14,7 @@
 | app-volumeMounts.yaml     | Volume mounts       | Manifest with volume mount configurations.  | [Example](./yaml/app-volumeMounts.yaml)                    |
 | app-cronjob.yaml          | app-cronjob apiVersion: batch/v1beta1             | Manifest defining a cron job.               | [Example](./yaml/app-cronjob.yaml)                         |
 | app-job.yaml              | app-job-rsync batch/v1 gcePersistentDisk image google/cloud-sdk:275.0.0-alpine command -/bin/sh volumeMounts                 | Manifest for running a one-off job.         | [Example](./yaml/app-job.yaml)                             |
-| app-multicontainer.yaml   | kubectl ai "app-multi-containers" | Manifest for a multi-container application. | [Example](./yaml/app-multicontainer.yaml)                  |
+| app-multicontainer.yaml   | app-multi-containers | Manifest for a multi-container application. | [Example](./yaml/app-multicontainer.yaml)                  |
 | app-resources.yaml        | Resource limits     | Manifest demonstrating resource limits.     | [Example](./yaml/app-resources.yaml)                       |
 | app-secret-env.yaml       | Secret as env var   | Manifest using secrets as environment vars. | [Example](./yaml/app-secret-env.yaml)                      |
 
