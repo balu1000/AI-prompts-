@@ -8,7 +8,7 @@
 
 | NAME                     | PROMPT              | DESCRIPTION                                 | EXAMPLE                                                    |
 |--------------------------|---------------------|---------------------------------------------|------------------------------------------------------------|
-| app.yaml                 | Basic app manifest  | Manifest defining a basic application.      | [Example](./yaml/app.yaml)                                |
+| app.yaml                 | kubectl ai "kind: Pod;app;gcr.io/k8s-k3s/demo:v1.0.0;ports"  | Manifest defining a basic application.      | [Example](./yaml/app.yaml)                                |
 | app-livenessProbe.yaml    |    app-livenessProbe;namespace: demo;gcr.io/k8s-k3s/demo:v1.0.0   | Manifest demonstrating a liveness probe.   | [Example](./yaml/app-livenessProbe.yaml)                   |
 | app-readinessProbe.yaml   | app-readinessprob;gcr.io/k8s-k3s/demo:v2.0.0;livenessProbe;readinessProbe;ports     | Manifest showing a readiness probe.         | [Example](./yaml/app-readinessProbe.yaml)                  |
 | app-volumeMounts.yaml     | kubectl ai "kind: Pod;app-volume;gcr.io/kuar-demo/kuard-amd64:1;livenessProbe;readinessProbe;ports;volumeMounts"       | Manifest with volume mount configurations.  | [Example](./yaml/app-volumeMounts.yaml)                    |
