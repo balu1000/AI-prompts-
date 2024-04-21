@@ -2,7 +2,7 @@
 
 ## Опис
 
-Маніфести YAML для кожного з наведених файлів із списку. Кожен маніфест має відповідний опис та приклад.
+Маніфести YAML для кожного з наведених PROMPT.
 
 ## Таблиця маніфестів
 
@@ -18,4 +18,4 @@
 | app-resources.yaml        | Resource limits     | Manifest demonstrating resource limits.     | [Example](./yaml/app-resources.yaml)                       |
 | app-secret-env.yaml       | Secret as env var   | Manifest using secrets as environment vars. | [Example](./yaml/app-secret-env.yaml)                      |
 
-Будь ласка, перейдіть за посиланням вище, щоб переглянути кожен з маніфестів та їх приклади. Я сподіваюсь, це буде корисно для вас!
+Будь ласка, перейдіть за посиланням вище, щоб переглянути кожен з маніфестів.
