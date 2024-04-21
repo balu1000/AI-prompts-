@@ -9,7 +9,7 @@
 | NAME                     | PROMPT              | DESCRIPTION                                 | EXAMPLE                                                    |
 |--------------------------|---------------------|---------------------------------------------|------------------------------------------------------------|
 | app.yaml                 | Basic app manifest  | Manifest defining a basic application.      | [Example](./yaml/app.yaml)                                |
-| app-livenessProbe.yaml    |    kubectl ai "app-livenessProbe;namespace: demo;gcr.io/k8s-k3s/demo:v1.0.0"   | Manifest demonstrating a liveness probe.   | [Example](./yaml/app-livenessProbe.yaml)                   |
+| app-livenessProbe.yaml    |    app-livenessProbe;namespace: demo;gcr.io/k8s-k3s/demo:v1.0.0   | Manifest demonstrating a liveness probe.   | [Example](./yaml/app-livenessProbe.yaml)                   |
 | app-readinessProbe.yaml   | app-readinessprob;gcr.io/k8s-k3s/demo:v2.0.0;livenessProbe;readinessProbe;ports     | Manifest showing a readiness probe.         | [Example](./yaml/app-readinessProbe.yaml)                  |
 | app-volumeMounts.yaml     | Volume mounts       | Manifest with volume mount configurations.  | [Example](./yaml/app-volumeMounts.yaml)                    |
 | app-cronjob.yaml          | app-cronjob apiVersion: batch/v1beta1             | Manifest defining a cron job.               | [Example](./yaml/app-cronjob.yaml)                         |
